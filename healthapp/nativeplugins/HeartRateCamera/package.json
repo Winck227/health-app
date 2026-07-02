@@ -1,0 +1,30 @@
+{
+  "id": "HeartRateCamera",
+  "name": "HeartRateCamera",
+  "version": "1.0.0",
+  "description": "Android CameraX PPG heart-rate native plugin for uni-app. Provides continuous frame RGB statistics instead of system camera photo capture.",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "integrateType": "aar",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "HeartRateCamera",
+          "class": "com.healthapp.heartrate.HeartRateCameraModule"
+        }
+      ],
+      "dependencies": [
+        "androidx.camera:camera-core:1.4.1",
+        "androidx.camera:camera-camera2:1.4.1",
+        "androidx.camera:camera-lifecycle:1.4.1",
+        "androidx.camera:camera-view:1.4.1",
+        "androidx.appcompat:appcompat:1.7.0"
+      ],
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.FLASHLIGHT"
+      ]
+    }
+  }
+}

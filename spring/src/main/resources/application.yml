@@ -1,0 +1,35 @@
+server:
+  port: 3030
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/health_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:123456}
+    hikari:
+      pool-name: HealthHikariPool
+      minimum-idle: 2
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  jackson:
+    time-zone: Asia/Shanghai
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+app:
+  jwt:
+    secret: health-app-secret-change-me
+    expire-hours: 168
+  data-dir: ${APP_DATA_DIR:./data}
+  upload:
+    avatar-dir: ${APP_AVATAR_DIR:./uploads/avatar}

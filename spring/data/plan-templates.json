@@ -1,0 +1,41 @@
+[ {
+  "id" : "walk_7_days",
+  "name" : "7 天步行计划",
+  "category" : "运动",
+  "days" : 7,
+  "goalText" : "每天完成基础步行目标，逐步提升活动量。",
+  "theme" : "green",
+  "enabled" : true
+}, {
+  "id" : "diet_14_days",
+  "name" : "14 天饮食记录计划",
+  "category" : "饮食",
+  "days" : 14,
+  "goalText" : "坚持记录三餐并关注每日总热量。",
+  "theme" : "red",
+  "enabled" : true
+}, {
+  "id" : "water_14_days",
+  "name" : "14 天饮水习惯计划",
+  "category" : "习惯",
+  "days" : 14,
+  "goalText" : "培养规律饮水习惯，减少高糖饮品摄入。",
+  "theme" : "blue",
+  "enabled" : true
+}, {
+  "id" : "new",
+  "name" : "这是新模板",
+  "category" : "无",
+  "days" : 5,
+  "goalText" : "这是新模板",
+  "theme" : "这是新模板",
+  "enabled" : true
+}, {
+  "id" : "33",
+  "name" : "这是模板三",
+  "category" : "我是火车网",
+  "days" : 5,
+  "goalText" : "哈哈哈",
+  "theme" : "暂无",
+  "enabled" : true
+} ]

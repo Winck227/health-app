@@ -1,0 +1,19 @@
+{
+  "name": "health-management-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run check:all",
+    "check:js": "node tools/check-js.js",
+    "check:sfc": "node tools/check-sfc.js",
+    "check:routes": "node tools/check-routes.js",
+    "check:ppg": "node tools/check-ppg.js",
+    "check:all": "npm run check:js && npm run check:sfc && npm run check:routes && npm run check:ppg"
+  },
+  "dependencies": {
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.33"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    { "path": "pages/auth/login", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/dashboard/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/diet/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/health/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/plan/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/knowledge/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/settings/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/dashboard/healthScoreDetail", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/dashboard/stepsDetail", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/heart/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/heart/camera", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/knowledge/detail", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/favorites", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/edit", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/plan/add", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/plan/detail", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/settings/goals", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/settings/privacy", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/settings/password", "style": { "navigationStyle": "custom" } }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F8FB"
+  },
+  "uniIdRouter": {}
+}
